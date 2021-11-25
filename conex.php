@@ -1,3 +1,3 @@
 <?php 
-	$conexion=mysqli_connect("localhost", "root", "", "Chicos");
+	$conexion=mysqli_connect("localhost", "root", "", "voley");
  ?>

@@ -6,14 +6,24 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="siu.css">
 	<title>TABLAS</title>
 </head>
 <body>
-	<h1>TABLAS</h1>
+	
+ 	<nav style="background-color:#00796b">
+		<center>
+			<h1>Listado de Datos</h1>
+		</center>	
+	</nav>
+
+	<center>
+		<table border="10">
 			<thead>
 				<tr>
 					<th>Nombres</th>
 					<th>Apellidos</th>
+					<th>Contraseñas</th>
 					<th>Telefonos</th>
 				</tr>
 			</thead>
@@ -23,11 +33,12 @@
 				<tr>
 					<td><?php echo $row['Nombre']; ?></td>
 					<td><?php echo $row['Apellido']; ?></td>
-					<td><?php echo $row['ID_producto']; ?></td>
+					<td><?php echo $row['Contraseña']; ?></td>
+					<td><?php echo $row['Telefono']; ?></td>
 				</tr>
 
 			</tbody>
-					<?php  
+			<?php  
 			}
 			?>
 

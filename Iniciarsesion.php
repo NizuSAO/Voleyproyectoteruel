@@ -1,5 +1,5 @@
 <?php
-	include('ingresar.php') 
+	include("login.php") 
 	 ?>
 <!DOCTYPE html> 
 <html>
@@ -14,13 +14,11 @@
 	<form method="post">
 	<h1 style="color: #00FFDC">Registro </h1>
 	<section class="form-register">
-		<h2 style="color: #00FFDC">Registro de alumno</h2>
-		<input class="controls" type="text" name="nombre" placeholder="Ingrese Nombre">
-		<input class="controls" type="text" name="apellido" placeholder="ingresar Apellido">
-		<input class="controls" type="password" name="contraseña" placeholder="Ingresar su contraseña">
-		<input class="controls" type="text" name="telefono" placeholder="Ingresar Telefono">
+		<h2 style="color: #00FFDC">Registro de alumnos</h2>
+		<input class="controls" type="text" name="Nombres" placeholder="Ingrese Nombre">
+		<input class="controls" type="text" name="contraseña" placeholder="ingresar contraseña">
 		<p style="color: #00FFDC">Estoy de acuerdo con los <a href="terminosycondiciones.html">terminos y condiciones</a> </p>
-		<input class="botons" type="submit" name="Ingresar" value="Registrarse"> 
+		<input class="botons" type="submit" name="Sesion" value="Iniciar Sesion">
 		<p><a style="color:white;" href="paginavoley.html">Volver</a><p>
 	</section>
 	</form>

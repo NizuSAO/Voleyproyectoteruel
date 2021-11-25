@@ -1,18 +1,19 @@
 <?php
-include("conex.php");
+include('conex.php');
 
 if (isset($_POST['Ingresar'])) {
-	if (strlen($_POST['nombre']) >= 1 && strlen($_POST['apellido']) >= 1 && strlen($_POST['telefono']) >= 1) 
+	if (strlen($_POST['nombre']) >= 1 && strlen($_POST['apellido']) >= 1 && strlen($_POST['contraseña'])>= 1 && strlen($_POST['telefono']) >= 1) 
 		{
 			$nombre = trim($_POST['nombre']);
-			$precio = trim($_POST['apellido']);
+			$apellido = trim($_POST['apellido']);
+			$contraseña = trim($_POST['contraseña']);
 			$telefono =  trim($_POST['telefono']);
-			$consulta = "INSERT INTO Alumno(`nombre`, `apellido`, `telefono`) VALUES ('$nombre','$apellido','$telefono')";
-			$resultado = mysqli_query($conn,$consulta);
+			$consulta = "INSERT INTO registro(`Nombre`, `Apellido`, `Contraseña`, `Telefono`) VALUES ('$nombre','$apellido','$contraseña','$telefono')";
+			$resultado = mysqli_query($conexion,$consulta);
 			if (!$resultado){
-				die("error: ".mysqli_error($conn));
+				die("error: ".mysqli_error($conexion));
 			} else {
-				header("location: paginaweb.html");
+				header("location: Tablas.php");
 			}
 		}
 }

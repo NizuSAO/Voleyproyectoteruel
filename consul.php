@@ -2,7 +2,7 @@
 require('conex.php');
 
 
-$consulta = "SELECT * FROM Alumnos";
+$consulta = "SELECT * FROM Registro";
 $query = mysqli_query($conexion,$consulta);
 $array = mysqli_fetch_array($query);
 
