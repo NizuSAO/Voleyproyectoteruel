@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial scale=1.0">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<link rel="stylesheet" href="shu.css">
+	<link rel="stylesheet" href="..\Estilos\shu.css">
 	<title>Voley jovenes</title>
 </head>
 <body>
@@ -21,7 +21,7 @@
 		<input class="controls" type="text" name="telefono" placeholder="Ingresar Telefono">
 		<p style="color: #00FFDC">Estoy de acuerdo con los <a href="terminosycondiciones.html">terminos y condiciones</a> </p>
 		<input class="botons" type="submit" name="Ingresar" value="Registrarse"> 
-		<p><a style="color:white;" href="paginavoley.html">Volver</a><p>
+		<p><a style="color:white;" href="..\Paginavoley.html">Volver</a><p>
 	</section>
 	</form>
 
