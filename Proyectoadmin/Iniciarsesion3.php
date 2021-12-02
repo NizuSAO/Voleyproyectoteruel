@@ -12,9 +12,9 @@
 </head>
 <body>
 	<form method="post">
-	<h1 style="color: #00FFDC">Iniciar Sesion</h1>
+	<h1 style="color: orange">Iniciar Sesion</h1>
 	<section class="form-register">
-		<h2 style="color: #00FFDC">Ingrese la contraseña</h2>
+		<h2 style="color: orange">Ingrese la contraseña</h2>
 		<input class="controls" type="password" name="contraseña" placeholder="ingresar contraseña">
 		<input class="botons" type="submit" name="Sesion" value="Ingresar">
 		<p><a style="color:white;" href="..\Paginavoley.html">Volver</a><p>
