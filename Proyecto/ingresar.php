@@ -13,7 +13,7 @@ if (isset($_POST['Ingresar'])) {
 			if (!$resultado){
 				die("error: ".mysqli_error($conexion));
 			} else {
-				header("location: ..\Paginavoley.html");
+				header("location: Paginadealumno\Alumno.html");
 			}
 		}
 }

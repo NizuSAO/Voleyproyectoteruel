@@ -1,0 +1,41 @@
+body{
+	background-color: DodgerBlue;
+	font-family: Arial;
+}
+
+#main-container{
+	margin: 100px ;
+	width: 100px;
+}
+
+table{
+	background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+th, td{
+	padding: 30px;
+}
+
+thead{
+	background-color: orange;
+	border-bottom: solid 5px #DAA520;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #B8860B;
+	color: white;
+}
+
+
+
+
+
+

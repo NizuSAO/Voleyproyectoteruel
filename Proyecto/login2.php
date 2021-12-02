@@ -15,7 +15,7 @@ if ($nr == 1 )
 	{ 
 		if($nr == 1)
 			{	
-				header("Location: ..\Paginavoley.html");
+				header("Location: Paginadeprofesor\profesor.html");
 			}
 		}
 }

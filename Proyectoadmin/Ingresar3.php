@@ -8,12 +8,12 @@ if (isset($_POST['Ingresar'])) {
 			$apellido = trim($_POST['apellido']);
 			$contraseña = trim($_POST['contraseña']);
 			$telefono =  trim($_POST['telefono']);
-			$consulta = "INSERT INTO profesores(`Nombre`, `Apellido`, `Contraseña`, `Telefono`) VALUES ('$nombre','$apellido','$contraseña','$telefono')";
+			$consulta = "INSERT INTO rectores(`Nombre`, `Apellido`, `Contraseña`, `Telefono`) VALUES ('$nombre','$apellido','$contraseña','$telefono')";
 			$resultado = mysqli_query($conexion,$consulta);
 			if (!$resultado){
 				die("error: ".mysqli_error($conexion));
 			} else {
-				header("location: Paginadeprofesor\profesor.html");
+				header('location: ..\Proyecto\paginaderector\rector.html');
 			}
 		}
 }

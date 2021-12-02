@@ -1,5 +1,5 @@
 <?php
-	include("login2.php") 
+	include('login4.php') 
 	 ?>
 <!DOCTYPE html> 
 <html>
@@ -14,11 +14,9 @@
 	<form method="post">
 	<h1 style="color: #00FFDC">Iniciar Sesion</h1>
 	<section class="form-register">
-		<h2 style="color: #00FFDC">Ingrese los datos de Profesor</h2>
-		<input class="controls" type="text" name="Nombres" placeholder="Ingrese Nombre">
+		<h2 style="color: #00FFDC">Ingrese la contraseña</h2>
 		<input class="controls" type="password" name="contraseña" placeholder="ingresar contraseña">
-		<p style="color: #00FFDC">Estoy de acuerdo con los <a href="terminosycondiciones.html">terminos y condiciones</a> </p>
-		<input class="botons" type="submit" name="Sesion" value="Iniciar Sesion">
+		<input class="botons" type="submit" name="Sesion" value="Ingresar">
 		<p><a style="color:white;" href="..\Paginavoley.html">Volver</a><p>
 	</section>
 	</form>
